@@ -1,0 +1,13 @@
+.welcome-section {
+    width: 60%;
+}
+
+.welcome-section img {
+    object-fit: cover;
+}
+
+@media (max-width: 600px) {
+    .welcome-section {
+        width: 100%;
+    }
+ }
