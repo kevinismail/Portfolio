@@ -3,6 +3,7 @@ import { Button } from "@mui/material";
 import React from "react";
 import logo from '../logo1.png';
 import cv from "../cvkevin.pdf";
+import "./header.scss";
 function Header() {
     return (
       <header className="header">
