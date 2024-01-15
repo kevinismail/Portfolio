@@ -1,18 +1,57 @@
+@import '/Users/kevin/Documents/Workflow/folio/src/typography.scss';
 
 .container {
-    padding: 16px 80px;
-}
+  width: calc(100vw - 160px); /* 100% de la largeur de la fenêtre de visualisation moins 160px de padding */
+  height: 1.4375rem; /* 22px / 16px = 1.4375rem */
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 5rem; /* 16px / 16px = 1rem, 80px / 16px = 5rem */
+  padding-left: 1rem; /* Ajoute un padding gauche pour éviter que le logo ne déborde */
+ }
+ 
+ /* style logo */
+ $logo-width: 10.75rem; /* 169px / 16px = 10.75rem */
+ $logo-height: 2.25rem; /* 36px / 16px = 2.25rem */
+ 
+ .logo {
+  width: $logo-width;
+  height: $logo-height;
+ }
+ 
+ /* style Navigation */
+ .link-group {
+  display: flex;
+  gap: 1rem; /* 16px / 16px = 1rem */
+  margin-left: auto;
+ }
+ 
 
-/* style logo */
-$logo-widht: 36px;
-$logo-height: 139px;
-
-.logo {
-    width: $logo-height;
-    height: $logo-widht;
-}
-/* style Navigation */
-.link {
-  align-items: flex-end;
-/* style CVButton */ 
+ 
+ 
+  .button {
+    background-color: #111827;
+    color: #F9FAFB;
+    width: 136px;
+    height: 36px;
+    border-radius: 12px;
+    padding: 6px 16px;
+    gap: 8px;
+   }
+ 
+ 
+ @media screen and (max-width: 768px) {
+  .container {
+  flex-direction: column;
+  align-items: center;
+  }
+ 
+  .link-group {
+  margin-left: 0;
+  justify-content: center;
+  gap: 2rem; /* 32px / 16px = 2rem */
+  }
+ 
+  .logo {
+  width: 50%; /* Réduit la taille du logo sur les petits écrans */
+  }
  }

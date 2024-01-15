@@ -9,12 +9,14 @@ function Header() {
       <header className="header">
         <div className="container">
           <img src={logo} alt="Logo" className="logo"/>
-          <a href="#presentation">Présentation</a>
-        <a href="#realisation">Réalisation</a>
-        <a href="#contact">Me contacter</a>
-          <Button variant="contained"component="a" href={cv} download="mon-cv.pdf">
- Download CV
+          <div className="link-group">
+          <a href="#presentation" className="link">Présentation</a>
+        <a href="#realisation" className="link">Réalisation</a>
+        <a href="#contact" className="link">Me contacter</a>
+          <Button color="secondary"component="a" href={cv} download="mon-cv.pdf">
+ Mon CV
 </Button>
+        </div>
         </div>
       </header>
     );

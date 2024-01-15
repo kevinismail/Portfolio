@@ -3,6 +3,7 @@ import Header from '../components/header';
 import PresentationComponent from './homePage/presentation';
 import RealisationComponent from './homePage/realisation';
 import ContactComponent from './homePage/contact';
+import "../global.scss"
 
 const HomePage = () => {
  return (
@@ -14,6 +15,7 @@ const HomePage = () => {
          <RealisationComponent/>
         <br></br>
          <br></br>
+          
          <ContactComponent/>
      </div>
  );
