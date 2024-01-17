@@ -1,0 +1,20 @@
+containerpres {
+width: 1440px;
+height: 962px;
+}
+.souscontainer {
+
+    display: flex; // Aligne les enfants horizontalement
+    justify-content: space-between; // Répartit l'espace entre les enfants
+    align-items: center; 
+
+}
+.leftContainer, .rightContainer {
+    width: 608px; // Largeur de chaque conteneur
+    height: 694px; // Hauteur de chaque conteneur
+    float: left; // Déplace le conteneur à gauche
+   }
+   
+   .rightContainer {
+    float: right; // Déplace le deuxième conteneur à droite
+   }

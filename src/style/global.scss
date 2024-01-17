@@ -2,9 +2,9 @@
 @import 'typography';
 @import 'section';
 @import 'bienvenue';
+@import 'button';
+@import 'presentation';
+@import 'contact';
 $font-stack: Inter, sans-serif;
 $text-color: #4B5563;
 
-.image {
-    box-shadow: 0 0 0 5% #F9FAFB;
-}
