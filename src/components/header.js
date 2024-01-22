@@ -13,7 +13,7 @@ function Header() {
           <a href="#presentation" className="link">Présentation</a>
         <a href="#realisation" className="link">Réalisation</a>
         <a href="#contact" className="link">Me contacter</a>
-          <Button color="secondary"component="a" href={cv} download="mon-cv.pdf">
+          <Button className="cv-button" color="secondary"component="a" href={cv} download="mon-cv.pdf">
  Mon CV
 </Button>
         </div>

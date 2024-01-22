@@ -20,10 +20,11 @@ function BienvenueComponent() {
 
     </div>
   </div>
+
+ 
   </div>
   <div className="image-container">
         <img src={welcomeImage} alt="ohh un aquarium" className='image1'/>
- 
     </div>
 
   </section>
