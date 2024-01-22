@@ -2,7 +2,7 @@ import React from 'react';
 import { FaCheckCircle, FaMapMarkerAlt } from 'react-icons/fa';
 import { ReactComponent as Figmaicon} from './figmaicon.svg';
 import { ReactComponent as Githubicon } from './githubicon.svg';
-import welcomeImage from "../photo/kevin2.webp";
+import welcomeImage from "../photo/kevin2.webp"
 function BienvenueComponent() {
  return (
   <section id="bienvenue" className='welcome-section grid-container'>
@@ -22,11 +22,10 @@ function BienvenueComponent() {
   </div>
   </div>
   <div className="image-container">
-    <div className='welcome-section img'>
-        <img src="{welcomeImage}" alt="ohh un aquarium" className='image1'/>
+        <img src={welcomeImage} alt="ohh un aquarium" className='image1'/>
  
     </div>
-  </div>
+
   </section>
  );
 }

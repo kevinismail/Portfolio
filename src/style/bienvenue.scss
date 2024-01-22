@@ -7,13 +7,15 @@
    .welcome-section {
     width: calc(100vw - 160px); /* 100% de la largeur de la fenêtre de visualisation moins 160px de padding */
  padding: 1rem 5rem;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ width: calc(100vw - 160px); /* 100% de la largeur de la fenêtre de visualisation moins 160px de padding */
+ padding: 1rem 5rem;
+
    }
    
-   .welcome-section img {
-    object-fit: cover;
-    width: 100%;
-    height: auto;
-   }
+   
    
    @media (max-width: 768px) {
     .grid-container {
@@ -35,7 +37,7 @@
    
    .image1 {
     object-fit: cover;
-    width: 17.5rem;
-    height: 20rem;
-    box-shadow: 0 0 0 5% #E5E7EB;
+    width: 280px;
+    height: 320px;
+    box-shadow: 0 0 10px grey;
    }
