@@ -13,7 +13,7 @@ function Header() {
           <img src={logo} alt="Logo" className="logo"/>
           <div className="link-group">
           <a href="#presentation" className="link">Présentation</a>
-        <a href="#realisation" className="link">Réalisation</a>
+        <a href="#projects" className="link">Réalisations</a>
         <a href="#contact" className="link">Me contacter</a>
           <Button className="cv-button" color="secondary"component="a" href={cv} download="mon-cv.pdf">
  Mon CV
