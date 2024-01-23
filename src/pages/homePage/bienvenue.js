@@ -1,14 +1,25 @@
-import React from 'react';
+// @ts-nocheck
+import React, { useEffect, useState } from 'react';
 import { FaCheckCircle, FaMapMarkerAlt } from 'react-icons/fa';
 import { ReactComponent as Figmaicon} from './figmaicon.svg';
 import { ReactComponent as Githubicon } from './githubicon.svg';
 import welcomeImage from "../photo/kevin2.webp"
+import { ReactTyped } from 'react-typed';
+
 function BienvenueComponent() {
+
  return (
   <section id="bienvenue" className='welcome-section grid-container'>
     <div className="text-container">
    <div className="text">
-    <h1>Bienvenue</h1>
+   <div className="typing-effect">
+ <ReactTyped
+    strings={['Bienvenue', 'Welcome', 'Hola']}
+    typeSpeed={100}
+    backSpeed={100}
+    loop
+ />
+</div>
     <p> Je suis un développeur Front-End qui peut créer et ou faire le design d’applications web qui seront rapides, esthétiques, accessible et responsive. </p>
     <p><FaMapMarkerAlt /> France, Strasbourg</p>
     <p><FaCheckCircle color="green" /> Disponible pour de nouvelles missions</p>
