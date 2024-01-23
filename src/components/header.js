@@ -3,6 +3,8 @@ import { Button } from "@mui/material";
 import React from "react";
 import logo from '../logo1.png';
 import cv from "../cvkevin.pdf";
+import { FaMoon, FaSun } from 'react-icons/fa';
+
 
 function Header() {
     return (

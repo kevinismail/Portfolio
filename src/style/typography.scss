@@ -22,3 +22,9 @@ h1 {
     letter-spacing: -2%;
     color: #111827;
 }
+
+.subtitle {
+    @extend p;
+    text-align: center;
+    margin-bottom: 48px;
+}

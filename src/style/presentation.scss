@@ -15,13 +15,16 @@
 }
 
 .image-container {
-    width: 50%;
+    
     flex: none;
 }
 
 .image2 {
-    object-fit: contain;
+    margin-left: 80px;
+    margin-top: 48px;
+    object-fit: cover;
     width: 400px;
+    height: 440px;
     box-shadow: 0 0 10px grey;
 }
 .point-list {

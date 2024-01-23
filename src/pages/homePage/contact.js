@@ -17,7 +17,7 @@ function ContactComponent() {
 
     <section id="contact" className='contact-section'>
     <Button><p>Me contacter</p></Button>
-  <p>N'hésitez pas à me contacter si vous cherchez un projet</p>
+  <p className="contact-text">N’hésitez pas à me contacter si vous cherchez un développeur pour une mission longue, un petit projet ou souhaitez simplement échanger !</p>
   <div className="contact-info">
     <div className="email-info">
     <FontAwesomeIcon icon={faEnvelope} />

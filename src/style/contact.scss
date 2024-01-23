@@ -6,6 +6,7 @@
      display: flex;
      flex-direction: column; // Change la direction en colonne
      justify-content: space-around;
+     align-items: center;
      margin-top: 96px;
    
      .email-info, .phone-info {
@@ -21,4 +22,10 @@
        }
      }
     }
+   }
+   .contact-text {
+    display: block;
+    text-align: center;
+    width: 576px;
+    margin: auto;
    }

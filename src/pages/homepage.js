@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/header';
 import PresentationComponent from './homePage/presentation';
-import RealisationComponent from './homePage/realisation';
+import ProjectComponent from './homePage/projects';
 import ContactComponent from './homePage/contact';
 import "../style/global.scss"
 import BienvenueComponent from './homePage/bienvenue';
@@ -19,7 +19,7 @@ const HomePage = () => {
          <br></br>
          <CompetencesComponent/>
          <br></br>
-         <RealisationComponent/>
+         <ProjectComponent/>
         <br></br>
          <br></br>
           
