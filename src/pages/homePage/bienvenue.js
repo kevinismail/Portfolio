@@ -35,7 +35,7 @@ function BienvenueComponent() {
 
  
   </div>
-  <div className="image-container">
+  <div>
         <img src={welcomeImage} alt="ohh un aquarium" className='image1'/>
     </div>
 
