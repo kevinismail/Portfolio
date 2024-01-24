@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)http://localhost:3000/#presentation -->
+<html lang="en"><script async="false" type="text/javascript" src="chrome-extension://fnjhmkhhmkbjkkabndcnnogagogbneec/in-page.js"></script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="icon" href="http://localhost:3000/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Web site created using create-react-app">
+    <link rel="apple-touch-icon" href="http://localhost:3000/logo192.png">
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="http://localhost:3000/manifest.json">
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  <script defer="" src="./React App_files/bundle.js"></script><style>body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9pbmRleC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxTQUFTO0VBQ1Q7O2NBRVk7RUFDWixtQ0FBbUM7RUFDbkMsa0NBQWtDO0FBQ3BDOztBQUVBO0VBQ0U7YUFDVztBQUNiIiwic291cmNlc0NvbnRlbnQiOlsiYm9keSB7XG4gIG1hcmdpbjogMDtcbiAgZm9udC1mYW1pbHk6IC1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgJ1JvYm90bycsICdPeHlnZW4nLFxuICAgICdVYnVudHUnLCAnQ2FudGFyZWxsJywgJ0ZpcmEgU2FucycsICdEcm9pZCBTYW5zJywgJ0hlbHZldGljYSBOZXVlJyxcbiAgICBzYW5zLXNlcmlmO1xuICAtd2Via2l0LWZvbnQtc21vb3RoaW5nOiBhbnRpYWxpYXNlZDtcbiAgLW1vei1vc3gtZm9udC1zbW9vdGhpbmc6IGdyYXlzY2FsZTtcbn1cblxuY29kZSB7XG4gIGZvbnQtZmFtaWx5OiBzb3VyY2UtY29kZS1wcm8sIE1lbmxvLCBNb25hY28sIENvbnNvbGFzLCAnQ291cmllciBOZXcnLFxuICAgIG1vbm9zcGFjZTtcbn1cbiJdLCJzb3VyY2VSb290IjoiIn0= */</style><style>@charset "UTF-8";
+.container {
+  width: calc(100vw - 160px); /* 100% de la largeur de la fenêtre de visualisation moins 160px de padding */
+  height: 1.4375rem; /* 22px / 16px = 1.4375rem */
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 5rem; /* 16px / 16px = 1rem, 80px / 16px = 5rem */
+  padding-left: 1rem; /* Ajoute un padding gauche pour éviter que le logo ne déborde */
+}
+
+/* style logo */
+/* 169px / 16px = 10.75rem */
+/* 36px / 16px = 2.25rem */
+.logo {
+  width: 10.75rem;
+  height: 2.25rem;
+}
+
+/* style Navigation */
+.link-group {
+  display: flex;
+  gap: 1rem; /* 16px / 16px = 1rem */
+  margin-left: auto;
+}
+
+.button {
+  background-color: #111827;
+  color: #F9FAFB;
+  width: 136px;
+  height: 36px;
+  border-radius: 12px;
+  padding: 6px 16px;
+  gap: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .link-group {
+    margin-left: 0;
+    justify-content: center;
+    gap: 2rem; /* 32px / 16px = 2rem */
+  }
+  .logo {
+    width: 50%; /* Réduit la taille du logo sur les petits écrans */
+  }
+}
+p {
+  color: #4B5563;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+
+.link {
+  font-size: 1.25rem;
+  color: #4B5563;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+h1 {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -2%;
+  color: #111827;
+}
+
+.sectionOne {
+  background-color: #FFFFFF;
+}
+
+.sectionTwo {
+  background-color: #F9FAFB;
+}
+
+.welcome-section {
+  width: 60%;
+  padding: 96px 112px;
+}
+
+.welcome-section img {
+  object-fit: cover;
+}
+
+@media (max-width: 600px) {
+  .welcome-section {
+    width: 100%;
+  }
+}
+.icones {
+  display: flex;
+  align-items: center;
+}
+
+.buttoncontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  box-shadow: 0 0 0 5% #F9FAFB;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9zdHlsZS9nbG9iYWwuc2NzcyIsIndlYnBhY2s6Ly8uL3NyYy9zdHlsZS9oZWFkZXIuc2NzcyIsIndlYnBhY2s6Ly8uL3NyYy9zdHlsZS90eXBvZ3JhcGh5LnNjc3MiLCJ3ZWJwYWNrOi8vLi9zcmMvc3R5bGUvc2VjdGlvbi5zY3NzIiwid2VicGFjazovLy4vc3JjL3N0eWxlL2JpZW52ZW51ZS5zY3NzIiwid2VicGFjazovLy4vc3JjL3N0eWxlL2J1dHRvbi5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLGdCQUFnQjtBQ0VoQjtFQUNFLDBCQUFBLEVBQUEsNkVBQUE7RUFDQSxpQkFBQSxFQUFBLDRCQUFBO0VBQ0EsYUFBQTtFQUNBLDhCQUFBO0VBQ0Esa0JBQUEsRUFBQSwyQ0FBQTtFQUNBLGtCQUFBLEVBQUEsZ0VBQUE7QURBRjs7QUNHQyxlQUFBO0FBQ3VCLDRCQUFBO0FBQ0EsMEJBQUE7QUFFdkI7RUFDQyxlQUpZO0VBS1osZUFKYTtBREdmOztBQ0lDLHFCQUFBO0FBQ0E7RUFDQyxhQUFBO0VBQ0EsU0FBQSxFQUFBLHVCQUFBO0VBQ0EsaUJBQUE7QURERjs7QUNPRTtFQUNFLHlCQUFBO0VBQ0EsY0FBQTtFQUNBLFlBQUE7RUFDQSxZQUFBO0VBQ0EsbUJBQUE7RUFDQSxpQkFBQTtFQUNBLFFBQUE7QURKSjs7QUNRQztFQUNDO0lBQ0Esc0JBQUE7SUFDQSxtQkFBQTtFRExBO0VDUUE7SUFDQSxjQUFBO0lBQ0EsdUJBQUE7SUFDQSxTQUFBLEVBQUEsdUJBQUE7RUROQTtFQ1NBO0lBQ0EsVUFBQSxFQUFBLG1EQUFBO0VEUEE7QUFDRjtBRTlDQTtFQUNJLGNBSFM7RUFJVCxlQUFBO0VBQ0EsbUJBQUE7RUFDQSxnQkFBQTtBRmdESjs7QUU3Q0E7RUFDSSxrQkFBQTtFQUNBLGNBWFM7RUFZVCxxQkFBQTtFQUNBLGdCQUFBO0FGZ0RKOztBRTdDQTtFQUNJLGtCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxlQUFBO0VBQ0EsaUJBQUE7RUFDQSxtQkFBQTtFQUNBLGNBQUE7QUZnREo7O0FHdEVBO0VBQ0kseUJBQUE7QUh5RUo7O0FHdEVHO0VBQ0MseUJBQUE7QUh5RUo7O0FJOUVBO0VBQ0ksVUFBQTtFQUNBLG1CQUFBO0FKaUZKOztBSTlFQTtFQUNJLGlCQUFBO0FKaUZKOztBSTlFQTtFQUNJO0lBQ0ksV0FBQTtFSmlGTjtBQUNGO0FJOUVDO0VBQ0csYUFBQTtFQUNBLG1CQUFBO0FKZ0ZKOztBS2pHQTtFQUNJLGFBQUE7RUFDQSx1QkFBQTtBTG9HSjs7QUE5RkE7RUFDSSw0QkFBQTtBQWlHSiIsInNvdXJjZXNDb250ZW50IjpbIkBpbXBvcnQgJ2hlYWRlcic7XG5AaW1wb3J0ICd0eXBvZ3JhcGh5JztcbkBpbXBvcnQgJ3NlY3Rpb24nO1xuQGltcG9ydCAnYmllbnZlbnVlJztcbkBpbXBvcnQgJ2J1dHRvbic7XG4kZm9udC1zdGFjazogSW50ZXIsIHNhbnMtc2VyaWY7XG4kdGV4dC1jb2xvcjogIzRCNTU2MztcblxuLmltYWdlIHtcbiAgICBib3gtc2hhZG93OiAwIDAgMCA1JSAjRjlGQUZCO1xufSIsIlxuXG4uY29udGFpbmVyIHtcbiAgd2lkdGg6IGNhbGMoMTAwdncgLSAxNjBweCk7IC8qIDEwMCUgZGUgbGEgbGFyZ2V1ciBkZSBsYSBmZW7DqnRyZSBkZSB2aXN1YWxpc2F0aW9uIG1vaW5zIDE2MHB4IGRlIHBhZGRpbmcgKi9cbiAgaGVpZ2h0OiAxLjQzNzVyZW07IC8qIDIycHggLyAxNnB4ID0gMS40Mzc1cmVtICovXG4gIGRpc3BsYXk6IGZsZXg7XG4gIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjtcbiAgcGFkZGluZzogMXJlbSA1cmVtOyAvKiAxNnB4IC8gMTZweCA9IDFyZW0sIDgwcHggLyAxNnB4ID0gNXJlbSAqL1xuICBwYWRkaW5nLWxlZnQ6IDFyZW07IC8qIEFqb3V0ZSB1biBwYWRkaW5nIGdhdWNoZSBwb3VyIMOpdml0ZXIgcXVlIGxlIGxvZ28gbmUgZMOpYm9yZGUgKi9cbiB9XG4gXG4gLyogc3R5bGUgbG9nbyAqL1xuICRsb2dvLXdpZHRoOiAxMC43NXJlbTsgLyogMTY5cHggLyAxNnB4ID0gMTAuNzVyZW0gKi9cbiAkbG9nby1oZWlnaHQ6IDIuMjVyZW07IC8qIDM2cHggLyAxNnB4ID0gMi4yNXJlbSAqL1xuIFxuIC5sb2dvIHtcbiAgd2lkdGg6ICRsb2dvLXdpZHRoO1xuICBoZWlnaHQ6ICRsb2dvLWhlaWdodDtcbiB9XG4gXG4gLyogc3R5bGUgTmF2aWdhdGlvbiAqL1xuIC5saW5rLWdyb3VwIHtcbiAgZGlzcGxheTogZmxleDtcbiAgZ2FwOiAxcmVtOyAvKiAxNnB4IC8gMTZweCA9IDFyZW0gKi9cbiAgbWFyZ2luLWxlZnQ6IGF1dG87XG4gfVxuIFxuXG4gXG4gXG4gIC5idXR0b24ge1xuICAgIGJhY2tncm91bmQtY29sb3I6ICMxMTE4Mjc7XG4gICAgY29sb3I6ICNGOUZBRkI7XG4gICAgd2lkdGg6IDEzNnB4O1xuICAgIGhlaWdodDogMzZweDtcbiAgICBib3JkZXItcmFkaXVzOiAxMnB4O1xuICAgIHBhZGRpbmc6IDZweCAxNnB4O1xuICAgIGdhcDogOHB4O1xuICAgfVxuIFxuIFxuIEBtZWRpYSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDc2OHB4KSB7XG4gIC5jb250YWluZXIge1xuICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xuICB9XG4gXG4gIC5saW5rLWdyb3VwIHtcbiAgbWFyZ2luLWxlZnQ6IDA7XG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICBnYXA6IDJyZW07IC8qIDMycHggLyAxNnB4ID0gMnJlbSAqL1xuICB9XG4gXG4gIC5sb2dvIHtcbiAgd2lkdGg6IDUwJTsgLyogUsOpZHVpdCBsYSB0YWlsbGUgZHUgbG9nbyBzdXIgbGVzIHBldGl0cyDDqWNyYW5zICovXG4gIH1cbiB9IiwiJHRleHQtY29sb3I6ICM0QjU1NjM7XG5cbnAge1xuICAgIGNvbG9yOiAkdGV4dC1jb2xvcjtcbiAgICBmb250LXNpemU6IDFyZW07XG4gICAgbGluZS1oZWlnaHQ6IDEuNXJlbTtcbiAgICBmb250LXdlaWdodDogNDAwO1xuXG59XG4ubGluayB7XG4gICAgZm9udC1zaXplOiAxLjI1cmVtO1xuICAgIGNvbG9yOiAkdGV4dC1jb2xvcjtcbiAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG4gICAgZm9udC13ZWlnaHQ6IDUwMDtcbn1cblxuaDEge1xuICAgIGZvbnQtZmFtaWx5OiBJbnRlcjtcbiAgICBmb250LXdlaWdodDogNzAwO1xuICAgIGZvbnQtc2l6ZTogNjBweDtcbiAgICBsaW5lLWhlaWdodDogNzJweDtcbiAgICBsZXR0ZXItc3BhY2luZzogLTIlO1xuICAgIGNvbG9yOiAjMTExODI3O1xufSIsIi5zZWN0aW9uT25lIHtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjRkZGRkZGO1xuICAgfVxuICAgXG4gICAuc2VjdGlvblR3byB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI0Y5RkFGQjtcbiAgIH0iLCIud2VsY29tZS1zZWN0aW9uIHtcbiAgICB3aWR0aDogNjAlO1xuICAgIHBhZGRpbmc6IDk2cHggMTEycHg7XG59XG5cbi53ZWxjb21lLXNlY3Rpb24gaW1nIHtcbiAgICBvYmplY3QtZml0OiBjb3Zlcjtcbn1cblxuQG1lZGlhIChtYXgtd2lkdGg6IDYwMHB4KSB7XG4gICAgLndlbGNvbWUtc2VjdGlvbiB7XG4gICAgICAgIHdpZHRoOiAxMDAlO1xuICAgIH1cbiB9XG5cbiAuaWNvbmVzIHsgXG4gICAgZGlzcGxheTogZmxleDtcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgXG59IiwiLmJ1dHRvbmNvbnRhaW5lciB7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgIFxuXG59Il0sInNvdXJjZVJvb3QiOiIifQ== */</style><style data-styled="active" data-styled-version="6.1.8">.kFfsLT{background-color:#E5E7EB;color:white;padding:4px 20px;border-radius:12px;border:none;cursor:default;opacity:0.6;height:28px;line-height:28px;}.curXwz{background-color:#E5E7EB;color:white;padding:4px 20px;border-radius:12px;border:none;cursor:default;opacity:0.6;height:28px;line-height:18px;}.hRSMvq{background-color:#E5E7EB;color:white;padding:4px 20px;border-radius:12px;border:none;cursor:default;opacity:0.6;height:28px;line-height:28px;}.htJGBC{background-color:#E5E7EB;color:white;padding:4px 20px;border-radius:12px;border:none;cursor:default;opacity:0.6;height:28px;line-height:28px;display:flex;justify-content:center;align-items:center;}</style><style data-emotion="css" data-s="">.css-1x80glj-MuiButton-root{font-family:"Roboto","Helvetica","Arial",sans-serif;font-weight:500;font-size:0.875rem;line-height:1.75;letter-spacing:0.02857em;text-transform:uppercase;min-width:64px;padding:6px 8px;border-radius:4px;-webkit-transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;color:#9c27b0;}</style><style data-emotion="css" data-s="">.css-1x80glj-MuiButton-root:hover{-webkit-text-decoration:none;text-decoration:none;background-color:rgba(156, 39, 176, 0.04);}</style><style data-emotion="css" data-s="">@media (hover: none){.css-1x80glj-MuiButton-root:hover{background-color:transparent;}}</style><style data-emotion="css" data-s="">.css-1x80glj-MuiButton-root:active{}</style><style data-emotion="css" data-s="">.css-1x80glj-MuiButton-root.Mui-focusVisible{}</style><style data-emotion="css" data-s="">.css-1x80glj-MuiButton-root.Mui-disabled{color:rgba(0, 0, 0, 0.26);}</style><style data-emotion="css" data-s="">.css-1d3f8j8-MuiButtonBase-root-MuiButton-root{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;position:relative;box-sizing:border-box;-webkit-tap-highlight-color:transparent;background-color:transparent;outline:0;border:0;margin:0;border-radius:0;padding:0;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle;-moz-appearance:none;-webkit-appearance:none;-webkit-text-decoration:none;text-decoration:none;color:inherit;font-family:"Roboto","Helvetica","Arial",sans-serif;font-weight:500;font-size:0.875rem;line-height:1.75;letter-spacing:0.02857em;text-transform:uppercase;min-width:64px;padding:6px 8px;border-radius:4px;-webkit-transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;color:#9c27b0;}</style><style data-emotion="css" data-s="">.css-1d3f8j8-MuiButtonBase-root-MuiButton-root::-moz-focus-inner{border-style:none;}</style><style data-emotion="css" data-s="">.css-1d3f8j8-MuiButtonBase-root-MuiButton-root.Mui-disabled{pointer-events:none;cursor:default;}</style><style data-emotion="css" data-s="">@media print{.css-1d3f8j8-MuiButtonBase-root-MuiButton-root{-webkit-print-color-adjust:exact;color-adjust:exact;}}</style><style data-emotion="css" data-s="">.css-1d3f8j8-MuiButtonBase-root-MuiButton-root:hover{-webkit-text-decoration:none;text-decoration:none;background-color:rgba(156, 39, 176, 0.04);}</style><style data-emotion="css" data-s="">@media (hover: none){.css-1d3f8j8-MuiButtonBase-root-MuiButton-root:hover{background-color:transparent;}}</style><style data-emotion="css" data-s="">.css-1d3f8j8-MuiButtonBase-root-MuiButton-root:active{}</style><style data-emotion="css" data-s="">.css-1d3f8j8-MuiButtonBase-root-MuiButton-root.Mui-focusVisible{}</style><style data-emotion="css" data-s="">.css-1d3f8j8-MuiButtonBase-root-MuiButton-root.Mui-disabled{color:rgba(0, 0, 0, 0.26);}</style><style data-emotion="css" data-s="">.css-8je8zh-MuiTouchRipple-root{overflow:hidden;pointer-events:none;position:absolute;z-index:0;top:0;right:0;bottom:0;left:0;border-radius:inherit;}</style></head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><div><header class="header sectionOne"><div class="container"><img src="./React App_files/logo1.c97355817cdd81dc755d.png" alt="Logo" class="logo"><div class="link-group"><a href="http://localhost:3000/#presentation" class="link">Présentation</a><a href="http://localhost:3000/#realisation" class="link">Réalisation</a><a href="http://localhost:3000/#contact" class="link">Me contacter</a><a class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-sizeMedium MuiButton-textSizeMedium css-1d3f8j8-MuiButtonBase-root-MuiButton-root" tabindex="0" href="http://localhost:3000/static/media/cvkevin.e97c06fe6832a3840a0c.pdf" download="mon-cv.pdf">Mon CV<span class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"></span></a></div></div></header><section id="bienvenue" class="welcome-section"><div class="text-container"><div class="text"><h1>Bienvenue</h1><p> Je suis un développeur Front-End qui peut créer et ou faire le design d’applications web qui seront rapides, esthétiques, accessible et responsive. </p><p><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg> France, Strasbourg</p><p><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="green" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: green;"><path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"></path></svg> Disponible pour de nouvelles missions</p></div></div><div class="image-container"><div class="image"><img src="./React App_files/singe.jpeg" alt="description de l&#39;image" class="image"><div class="icones"><a href="https://github.com/kevinismail" target="_blank" rel="noopener noreferrer"><svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 28V24C21.1391 22.7473 20.7799 21.4901 20 20.5C23 20.5 26 18.5 26 15C26.08 13.75 25.73 12.52 25 11.5C25.28 10.35 25.28 9.15 25 8C25 8 24 8 22 9.5C19.36 9 16.64 9 14 9.5C12 8 11 8 11 8C10.7 9.15 10.7 10.35 11 11.5C10.2719 12.5159 9.91847 13.7528 10 15C10 18.5 13 20.5 16 20.5C15.61 20.99 15.32 21.55 15.15 22.15C14.98 22.75 14.93 23.38 15 24V28" stroke="#4B5563" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M15 24C10.49 26 10 22 8 22" stroke="#4B5563" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></a><a href="https://www.figma.com/file/aAF9pi7trlxKTEAKDHsJU4/Maquette-portfolio?type=design&amp;node-id=0-1&amp;mode=design&amp;t=2fvsKqbr3jsQLDL8-0" target="_blank" rel="noopener noreferrer"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="Icon"><path id="Vector" d="M5 5.5C5 4.57174 5.36875 3.6815 6.02513 3.02513C6.6815 2.36875 7.57174 2 8.5 2H12V9H8.5C7.57174 9 6.6815 8.63125 6.02513 7.97487C5.36875 7.3185 5 6.42826 5 5.5Z" stroke="#4B5563" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path id="Vector_2" d="M12 2H15.5C15.9596 2 16.4148 2.09053 16.8394 2.26642C17.264 2.44231 17.6499 2.70012 17.9749 3.02513C18.2999 3.35013 18.5577 3.73597 18.7336 4.16061C18.9095 4.58525 19 5.04037 19 5.5C19 5.95963 18.9095 6.41475 18.7336 6.83939C18.5577 7.26403 18.2999 7.64987 17.9749 7.97487C17.6499 8.29988 17.264 8.55769 16.8394 8.73358C16.4148 8.90947 15.9596 9 15.5 9H12V2Z" stroke="#4B5563" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path id="Vector_3" d="M12 12.5C12 12.0404 12.0905 11.5852 12.2664 11.1606C12.4423 10.736 12.7001 10.3501 13.0251 10.0251C13.3501 9.70012 13.736 9.44231 14.1606 9.26642C14.5852 9.09053 15.0404 9 15.5 9C15.9596 9 16.4148 9.09053 16.8394 9.26642C17.264 9.44231 17.6499 9.70012 17.9749 10.0251C18.2999 10.3501 18.5577 10.736 18.7336 11.1606C18.9095 11.5852 19 12.0404 19 12.5C19 12.9596 18.9095 13.4148 18.7336 13.8394C18.5577 14.264 18.2999 14.6499 17.9749 14.9749C17.6499 15.2999 17.264 15.5577 16.8394 15.7336C16.4148 15.9095 15.9596 16 15.5 16C15.0404 16 14.5852 15.9095 14.1606 15.7336C13.736 15.5577 13.3501 15.2999 13.0251 14.9749C12.7001 14.6499 12.4423 14.264 12.2664 13.8394C12.0905 13.4148 12 12.9596 12 12.5Z" stroke="#4B5563" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path id="Vector_4" d="M5 19.5C5 18.5717 5.36875 17.6815 6.02513 17.0251C6.6815 16.3687 7.57174 16 8.5 16H12V19.5C12 20.4283 11.6313 21.3185 10.9749 21.9749C10.3185 22.6313 9.42826 23 8.5 23C7.57174 23 6.6815 22.6313 6.02513 21.9749C5.36875 21.3185 5 20.4283 5 19.5Z" stroke="#4B5563" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path id="Vector_5" d="M5 12.5C5 11.5717 5.36875 10.6815 6.02513 10.0251C6.6815 9.36875 7.57174 9 8.5 9H12V16H8.5C7.57174 16 6.6815 15.6313 6.02513 14.9749C5.36875 14.3185 5 13.4283 5 12.5Z" stroke="#4B5563" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></g></svg></a></div></div></div></section><section id="presentation"><div class="buttoncontainer"><button disabled="" class="sc-hLQSwg htJGBC"><p>Présentation</p></button></div></section><br><br><section id="realisation"><h1>Realisation</h1></section><br><br><section id="contact"><h1>Contact</h1></section></div></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  
+
+</body></html>
