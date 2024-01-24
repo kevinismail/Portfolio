@@ -1,27 +1,50 @@
 // @ts-nocheck
 import { Button } from "@mui/material";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import logo from '../logo1.png';
 import cv from "../cvkevin.pdf";
-import { FaMoon, FaSun } from 'react-icons/fa';
-
+import { FaBars } from 'react-icons/fa';
 
 function Header() {
-    return (
-      <header className="header sectionOne">
-        <div className="container">
-          <img src={logo} alt="Logo" className="logo"/>
-          <div className="link-group">
-          <a href="#presentation" className="link">Présentation</a>
-        <a href="#projects" className="link">Réalisations</a>
-        <a href="#contact" className="link">Me contacter</a>
-          <Button className="cv-button" color="secondary"component="a" href={cv} download="mon-cv.pdf">
- Mon CV
-</Button>
-        </div>
-        </div>
-      </header>
-    );
+  const [isOpen, setIsOpen] = useState(false);
+ 
+  const handleToggle = () => {
+     setIsOpen(!isOpen);
+  };
+ 
+  useEffect(() => {
+  if (window.innerWidth > 768) {
+     setIsOpen(false);
   }
-  
-  export default Header;
+ }, []);
+ return (
+    <header className="header sectionOne">
+      <div className="container">
+        <img src={logo} alt="Logo" className="logo"/>
+        <button className="hamburger" onClick={handleToggle}>
+          <FaBars />
+        </button>
+        {isOpen && (
+          <nav>
+            <ul>
+              <li><a href="#presentation">Présentation</a></li>
+              <li><a href="#projects">Réalisations</a></li>
+              <li><a href="#contact">Me contacter</a></li>
+              <li><Button className="cv-button" color="secondary"component="a" href={cv} download="mon-cv.pdf">Mon CV</Button></li>
+            </ul>
+          </nav>
+        )}
+        <div className="link-group">
+          <a href="#presentation" className="link">Présentation</a>
+          <a href="#projects" className="link">Réalisations</a>
+          <a href="#contact" className="link">Me contacter</a>
+          <Button className="cv-button" color="secondary"component="a" href={cv} download="mon-cv.pdf">
+            Mon CV
+          </Button>
+        </div>
+      </div>
+    </header>
+ );
+}
+
+export default Header;

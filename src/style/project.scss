@@ -14,8 +14,8 @@
     padding: 20px;
     padding-bottom: 48px;
     box-sizing: border-box;
-    border: 1px solid black;
-   }
+    margin-bottom: 48px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);   }
    
    .imageContainer {
     flex: 1;
@@ -23,6 +23,7 @@
    
    .textContainer {
     flex: 1;
+    margin-right: 80px;
    }
    .firstimage {
   
@@ -42,3 +43,20 @@
    .linkContainer {
     margin-top: 48px;
    }
+   @media (min-width: 768px) {
+    .projectContainer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .imageContainer,
+    .textContainer {
+        width: 50%;
+        margin-bottom: 0;
+    }
+
+    .firstimage {
+        max-width: 80%;
+        margin-left: 40px;
+    }
+}

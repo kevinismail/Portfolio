@@ -14,13 +14,14 @@ function BienvenueComponent() {
    <div className="text">
    <div className="typing-effect">
  <ReactTyped
-    strings={['Bienvenue', 'Welcome', 'Hola']}
+    strings={['Bienvenue', 'Welcome', 'Holà!']}
     typeSpeed={100}
     backSpeed={100}
     loop
  />
 </div>
-    <p> Je suis un développeur Front-End qui peut créer et ou faire le design d’applications web qui seront rapides, esthétiques, accessible et responsive. </p>
+    <p> Je suis un développeur Front-End qui peut créer et ou faire le design d’applications web qui seront rapides,
+       esthétiques, accessibles et responsives. </p>
     <p><FaMapMarkerAlt /> France, Strasbourg</p>
     <p><FaCheckCircle color="green" /> Disponible pour de nouvelles missions</p>
     <div className="icones">

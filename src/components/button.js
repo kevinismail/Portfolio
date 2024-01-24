@@ -15,6 +15,7 @@ const StyledButton = styled.button`
  justify-content: center;
  align-items: center;
  margin: auto;
+ margin-bottom : 48px;
 `;
 
 const Button = ({ children }) => {

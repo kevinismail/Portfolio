@@ -11,7 +11,7 @@ function PresentationComponent() {
     
      <div className="content-container souscontainer">
         <div className="image-container">
-            <img src={presentationImage} alt="Description de l'image" className='image2'/>
+            <img src={presentationImage} alt="Bonjour" className='image2'/>
         </div>
         <div className="text-container">
             <h3>Pour mieux me connaître :</h3>
@@ -21,12 +21,12 @@ function PresentationComponent() {
             <p>Bien que cette formation soit axée Front et web, je travail également sur des projets personnels ou je touche légèrement le rôle du développeur Back </p>
             <p>N’hésitez pas à me contacter pour n’importe quel projet !</p> 
                <ul className="point-list left-points">
-                   <li>Point 1</li>
-                   <li>Point 2</li>
+                   <li>Curieux</li>
+                   <li>Fast learner</li>
                </ul>
                <ul className="point-list right-points">
-                   <li>Point 3</li>
-                   <li>Point 4</li>
+                   <li>Optimiste</li>
+                   <li>Aime le travail d'équipe</li>
                </ul>
                </div>
        

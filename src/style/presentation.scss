@@ -5,28 +5,34 @@
 
 .souscontainer {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    padding: 0 1rem; // Ajoutez cette ligne
 }
 
 .text-container {
     width: 50%;
+    margin-right: 80px;
     
 }
 
 .image-container {
     
-    flex: none;
+    
 }
 
 .image2 {
-    margin-left: 80px;
-    margin-top: 48px;
-    object-fit: cover;
-    width: 400px;
-    height: 440px;
-    box-shadow: 0 0 10px grey;
+    
+        margin-left: 80px;
+        margin-top: 48px;
+        max-width: 100%; 
+        object-fit: cover;
+        height: 440px;
+        box-shadow: 0 0 10px grey;
+    
 }
+
 .point-list {
     display: flex;
     justify-content: space-between;
@@ -42,11 +48,15 @@
 @media (max-width: 768px) {
     .souscontainer {
         flex-direction: column;
-        align-items: center;
+        padding: 0 1rem;
     }
-    
+
     .text-container,
     .image-container {
         width: 100%;
+        order: 1;
+        padding: 0 1rem;
+        margin: 0 auto; 
+        
     }
 }
