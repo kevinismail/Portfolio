@@ -20,7 +20,7 @@ function PresentationComponent() {
                  à ce que j’ai fait et ce que j’aimerai faire. </p>
             <p> A une époque où tout avance très vite et où de nouvelles technologies ne cessent d’apparaître, 
                 je ne voulais pas être dépassé et ai donc entamé une formation de développeur Front-End auprès d’OpenClassrooms.  </p>
-            <p>Bien que cette formation soit axée Front et web, je travaille également sur des projets personnels ou je touche 
+            <p>Bien que cette formation soit axée Front et web, je travaille également sur des projets personnels où je touche 
                 légèrement le rôle du développeur Back. </p>
             <p>N’hésitez pas à me contacter pour n’importe quel projet !</p> 
                <ul className="point-list left-points">
