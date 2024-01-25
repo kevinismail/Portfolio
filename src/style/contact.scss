@@ -17,11 +17,26 @@
          margin-left: 16px;
        }
    
-       .copy-button {
-         margin-left: 16px;
+
+       .icon-with-space {
+        margin-left: 10px;
+       }
+       .icon-hover:hover {
+        cursor: pointer;
        }
      }
     }
+   }
+
+   .scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+   }
+   
+   .scroll-to-top svg {
+    font-size: 2rem;
    }
    .contact-text {
     display: block;
@@ -29,4 +44,10 @@
     width: 576px;
     margin: auto;
     margin-top: 48px;
+   }
+
+   @media (max-width: 768px) {
+    .contact-text {
+      width: 100%;
+    }
    }
