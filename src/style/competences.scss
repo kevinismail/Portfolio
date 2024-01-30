@@ -3,9 +3,7 @@
     height: 488px;
    }
    
-   .buttoncontainer {
-    // Définissez le style de votre bouton ici...
-   }
+
    
    .icon-container {
     display: flex;
@@ -27,3 +25,8 @@
     text-align: center;
    }
    
+   @media (max-width: 768px) {
+    .icon-container {
+        margin: 0;
+    }
+}

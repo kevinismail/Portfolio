@@ -20,14 +20,14 @@
  }
  
  .image1 {
-  margin:auto;
-  margin-top: 46px;
-  object-fit: cover;
-  width: 280px;
-  height: 320px;
-  box-shadow: 0 0 10px grey;
-
- }
+    display: block;
+    margin: auto;
+    margin-top: 46px;
+    object-fit: cover;
+    width: 280px;
+    height: 320px;
+    box-shadow: 0 0 10px grey;
+   }
 
 
 
@@ -36,22 +36,22 @@
   .grid-container {
       grid-template-columns: 1fr;
       flex-direction: column;
-      max-width: 80%;
+      max-width: 100%;
+      margin: 0;
   }
   .welcome-section {
       width: 100%;
-      padding: 1rem 5rem;
+      padding: 0;
   }
   .welcome-section img {
       width: 100%;
   }
   .text-container {
-      max-width: 90%;
-      margin-right: 40px;
+      max-width: 100%;
+      margin-right: 0px;
   
   }
   .image1 {
-    width: 100%;
-    margin: auto;
+    width: 70%;
   }
 }

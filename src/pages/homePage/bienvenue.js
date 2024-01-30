@@ -14,7 +14,7 @@ function BienvenueComponent() {
    <div className="text">
    <div className="typing-effect">
  <ReactTyped
-    strings={['Bienvenue', 'Welcome', 'Holà!']}
+    strings={['Bienvenue', 'Welcome', '¡Hola!',"Willkommen",]}
     typeSpeed={100}
     backSpeed={100}
     loop

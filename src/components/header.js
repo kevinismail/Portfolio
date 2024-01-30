@@ -3,7 +3,7 @@ import { Button } from "@mui/material";
 import React, { useState, useEffect } from "react";
 import logo from '../logo1.png';
 import cv from "../cvkevin.pdf";
-import { FaBars } from 'react-icons/fa';
+import { FaBars, FaTimes } from 'react-icons/fa';
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,13 +18,15 @@ function Header() {
   }
  }, []);
  return (
-    <header className="header sectionOne">
+  <header className="header sectionOne">
       <div className="container">
-        <img src={logo} alt="Logo" className="logo"/>
-        <button className="hamburger" onClick={handleToggle}>
-          <FaBars />
-        </button>
-        {isOpen && (
+        <div className="header-content">
+          <img src={logo} alt="Logo" className="logo"/>
+          <button className={`hamburger ${isOpen ? 'close' : ''}`} onClick={handleToggle}>
+            {isOpen ? <FaTimes /> : <FaBars />}
+          </button>
+        </div>
+        {isOpen && window.innerWidth <= 768 && (
           <nav>
             <ul>
               <li><a href="#presentation">Présentation</a></li>

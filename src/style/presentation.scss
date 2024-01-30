@@ -53,10 +53,14 @@
 
     .text-container,
     .image-container {
-        width: 100%;
+        width: 70%;
         order: 1;
-        padding: 0 1rem;
-        margin: 0 auto; 
-        
+        padding: 0;
+        margin: auto; 
+    
+    
+    }
+    .image2 {
+        margin: 0;
     }
 }

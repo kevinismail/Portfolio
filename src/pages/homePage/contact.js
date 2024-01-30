@@ -56,7 +56,7 @@ function ContactComponent() {
       <LinkIcon className="icon-with-space icon-hover" onClick={() => copyToClipboard('+33666474277')}/>
     </div>
     <div className='plateforme'>
-      <p>Vous me trouverez également sur ces plateformes</p>
+      <p>Vous me trouverez également sur ces plateformes :</p>
     </div>
     <div className="icones">
     <a href="https://github.com/kevinismail" target="_blank" rel="noopener noreferrer">

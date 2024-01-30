@@ -15,7 +15,7 @@ function CompetencesComponent() {
      <div className='buttoncontainer'>
     <Button><p>Compétences</p></Button>
     </div>
-    <p className='subtitle'> Les outils et technologies utilisées </p>
+    <p className='subtitle'> Les outils et technologies utilisées : </p>
     <div className='icon-container'>
         <div><img src={javascript} alt="icone javascript"/></div>
         <div><img src={react} alt="icone react"/></div>

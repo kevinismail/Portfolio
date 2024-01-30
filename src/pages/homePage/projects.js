@@ -3,13 +3,14 @@ import Button from 'components/button'
 import FirstProject from'../photo/nina.png'
 import {ReactComponent as Linkone} from '../homePage/icones/link.svg'
 
+
 function ProjectComponent() {
  return (
   <section id="projects" className='sectionTwo'>
     <div className='buttoncontainer'>
       <Button><p>Réalisations</p></Button>
     </div>
-    <p className='subtitle'>Voici quelques-uns des projets sur lesquels j'ai travaillé</p>
+    <p className='subtitle'>Voici quelques-uns des projets sur lesquels j'ai travaillé :</p>
     <div className="projectContainer">
       <div className="imageContainer">
         <img src={FirstProject} alt='Nina Carducci' className='firstimage'/>
