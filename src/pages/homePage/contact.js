@@ -60,9 +60,9 @@ function ContactComponent() {
     </div>
     <div className="icones">
     <a href="https://github.com/kevinismail" target="_blank" rel="noopener noreferrer">
-    <Githubicon /></a>
+   Lien vers mon profil Github <Githubicon /></a>
     <a href="https://www.figma.com/file/aAF9pi7trlxKTEAKDHsJU4/Maquette-portfolio?type=design&node-id=0-1&mode=design&t=2fvsKqbr3jsQLDL8-0" target="_blank" rel="noopener noreferrer">
-    <Figmaicon /></a>
+   Lien vers mon profil Figma <Figmaicon /></a>
     </div>
   </div>
   {isVisible && 

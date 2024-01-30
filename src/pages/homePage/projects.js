@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from 'components/button'
-import FirstProject from'../photo/nina.png'
+import FirstProject from'../photo/nina.webp'
 import {ReactComponent as Linkone} from '../homePage/icones/link.svg'
 
 
@@ -26,7 +26,7 @@ function ProjectComponent() {
           </div>
           <div className="linkContainer">
         <a href="https://kevinismail.github.io/fork-OC-projet-09/" target="_blank" rel="noopener noreferrer">
-    <Linkone/></a>
+   Code du premier projet <Linkone/></a>
           </div>
       </div>    
     </div>
@@ -45,7 +45,7 @@ function ProjectComponent() {
           </div>
           <div className="linkContainer">
         <a href="https://kevinismail.github.io/fork-OC-projet-09/" target="_blank" rel="noopener noreferrer">
-    <Linkone/></a>
+    Code du deuxieme projet<Linkone/></a>
           </div>
       </div>    
     </div>
@@ -64,7 +64,7 @@ function ProjectComponent() {
           </div>
           <div className="linkContainer">
         <a href="https://kevinismail.github.io/fork-OC-projet-09/" target="_blank" rel="noopener noreferrer">
-    <Linkone/></a>
+    Code du troisième projet<Linkone/></a>
           </div>
       </div>    
     </div>

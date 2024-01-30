@@ -1,11 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { default as TakenSVG } from './photo/undraw_Taken.svg'
 const ErrorPage = () => {
  return (
-   <div>
+   <div className='error-page'> 
      <h1>Erreur 404</h1>
      <p>La page que vous recherchez n'existe pas.</p>
-     <Link to="/">Retour à la page d'accueil</Link>
+     <Link to="/" className="visible-link">Retour à la page d'accueil</Link>
+     <img src={TakenSVG} alt="oh une soucoupe" />
+   
    </div>
  );
 };

@@ -25,10 +25,10 @@ function BienvenueComponent() {
     <p><FaMapMarkerAlt /> France, Strasbourg</p>
     <p><FaCheckCircle color="green" /> Disponible pour de nouvelles missions</p>
     <div className="icones">
-    <a href="https://github.com/kevinismail" target="_blank" rel="noopener noreferrer">
+    <a href="https://github.com/kevinismail" target="_blank" rel="noopener noreferrer">Mon profil Github
     <Githubicon /></a>
     <a href="https://www.figma.com/file/aAF9pi7trlxKTEAKDHsJU4/Maquette-portfolio?type=design&node-id=0-1&mode=design&t=2fvsKqbr3jsQLDL8-0" target="_blank" rel="noopener noreferrer">
-    <Figmaicon /></a>
+    Mon profil Figma<Figmaicon /></a>
 
     </div>
   </div>

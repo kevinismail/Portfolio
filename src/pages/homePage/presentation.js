@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from 'components/button'
-import presentationImage from '../photo/presentation.jpeg'
+import presentationImage from '../photo/presentation.webp'
 
 function PresentationComponent() {
   return (

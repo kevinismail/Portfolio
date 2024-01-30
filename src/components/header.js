@@ -1,7 +1,7 @@
 // @ts-nocheck
 import { Button } from "@mui/material";
 import React, { useState, useEffect } from "react";
-import logo from '../logo1.png';
+import logo from '../logo1.webp';
 import cv from "../cvkevin.pdf";
 import { FaBars, FaTimes } from 'react-icons/fa';
 
