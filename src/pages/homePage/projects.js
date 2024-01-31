@@ -7,6 +7,7 @@ import {ReactComponent as Linkone} from '../homePage/icones/link.svg'
 function ProjectComponent() {
  return (
   <section id="projects" className='sectionTwo'>
+    <section className="section dark"></section>
     <div className='buttoncontainer'>
       <Button><p>Réalisations</p></Button>
     </div>

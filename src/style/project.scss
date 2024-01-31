@@ -51,6 +51,11 @@
 
 .linkContainer {
     margin-top: 48px;
+    a {
+        line-height: 0; 
+        font-size: 0;
+        color: transparent; 
+      }
 }
 
 @media (min-width: 768px) {

@@ -15,9 +15,8 @@ p {
 }
 
 a {
-    line-height: 0; 
-    font-size: 0;
-    color: transparent; 
+
+
 }
 .visible-link {
     color: blue; 
@@ -45,4 +44,29 @@ h1 {
     line-height: 72px;
     letter-spacing: -2%;
     color: #111827;
+}
+
+body {
+    transition: background-color 0.5s ease, color 0.5s ease;
+   }
+   
+   body.light {
+    background-color: white;
+    color: black;
+   }
+   
+   body.dark {
+    background-color: black;
+    color: white;
+   }
+   .theme-toggle {
+    color: var(--text-primary);
+}
+
+body.light .theme-toggle {
+    color: black;
+}
+
+body.dark .theme-toggle {
+    color: white;
 }

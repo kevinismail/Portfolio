@@ -1,6 +1,12 @@
 .contact-section {
     margin: 96px 0;
     text-align: center;
+
+    a {
+      line-height: 0; 
+      font-size: 0;
+      color: transparent; 
+    }
    
     .contact-info {
      display: flex;
@@ -17,7 +23,7 @@
          margin-left: 16px;
        }
    
-
+       .a 
        .icon-with-space {
         margin-left: 10px;
        }

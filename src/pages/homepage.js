@@ -8,6 +8,7 @@ import BienvenueComponent from './homePage/bienvenue';
 import CompetencesComponent from './homePage/competences';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+
 const HomePage = () => {
  return (
      <div>
