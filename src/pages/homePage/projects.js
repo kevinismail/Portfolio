@@ -1,7 +1,9 @@
 import React from 'react';
 import Button from 'components/button'
 import FirstProject from'../photo/nina.webp'
+import SecondProject from'../photo/ohmy.webp'
 import {ReactComponent as Linkone} from '../homePage/icones/link.svg'
+import ThirdProject from'../photo/77events.webp'
 
 
 function ProjectComponent() {
@@ -33,14 +35,13 @@ function ProjectComponent() {
     </div>
     <div className="projectContainer">
       <div className="imageContainer">
-        <img src={FirstProject} alt='Nina Carducci' className='firstimage'/>
+        <img src={SecondProject} alt='Ohmyfood' className='firstimage'/>
       </div>
       <div className="textContainer">
-        <p>Il s'agit d'un site internet pour une photographe, une des missions demandée était en autre un travail sur l'accessibilité, l'optimisation du 
-          site internet et sur le SEO. </p>
+        <p> Pour ce travail, il fallait intégrer les maquettes du site Mobile et Desktop de manière responsive avec des animations  </p>
           <div className='buttonContainer'>
-          <Button><p>react</p></Button>
-          <Button><p>Lightouse</p></Button>
+          <Button><p>CSS</p></Button>
+          <Button><p>SASS</p></Button>
           <Button><p>Figma</p></Button>
           <Button><p>Github</p></Button>
           </div>
@@ -52,13 +53,12 @@ function ProjectComponent() {
     </div>
     <div className="projectContainer">
       <div className="imageContainer">
-        <img src={FirstProject} alt='Nina Carducci' className='firstimage'/>
+        <img src={ThirdProject} alt='77events' className='firstimage'/>
       </div>
       <div className="textContainer">
-        <p>Il s'agit d'un site internet pour une photographe, une des missions demandée était en autre un travail sur l'accessibilité, l'optimisation du 
-          site internet et sur le SEO. </p>
+        <p>Dans ce projet, il s'agit de la création d'une app react et de la mise en place de tests pour une société d'événémentiel </p>
           <div className='buttonContainer'>
-          <Button><p>react</p></Button>
+          <Button><p>React</p></Button>
           <Button><p>Lightouse</p></Button>
           <Button><p>Figma</p></Button>
           <Button><p>Github</p></Button>

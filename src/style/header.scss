@@ -1,13 +1,13 @@
 
 
 .container {
-  width: calc(100vw - 160px); /* 100% de la largeur de la fenêtre de visualisation moins 160px de padding */
+  
   height: 1.4375rem; /* 22px / 16px = 1.4375rem */
   display: flex;
   justify-content: space-between;
-  padding: 1rem 5rem; /* 16px / 16px = 1rem, 80px / 16px = 5rem */
-  padding-left: 1rem; /* Ajoute un padding gauche pour éviter que le logo ne déborde */
+  margin-right: 17px;
   margin-bottom: 96px;
+  margin-top: 17px;
  }
  
  .header-content {
@@ -22,12 +22,14 @@
  .logo {
   width: $logo-width;
   height: $logo-height;
+  padding-left: 1rem;
  }
  
  /* style Navigation */
  .link-group {
   display: flex;
   gap: 1rem; /* 16px / 16px = 1rem */
+  
   margin-left: auto;
   color: black !important;
  }
@@ -36,7 +38,8 @@
 }
 
  .link {
-  margin-right: 20px;
+  margin-right: 1.5rem;
+
  }
  
   .button {
@@ -78,9 +81,10 @@
   top: 60px;
   left: 0;
   width: 100%;
-  height: calc(100vh - 77px);
+  height: 100%;
   flex-direction: column;
   text-align: center;
+  z-index: 1000;
 }
 
 nav ul {

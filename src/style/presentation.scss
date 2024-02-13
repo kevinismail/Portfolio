@@ -1,37 +1,28 @@
-.containerpres {
-    width: 100%;
-    height: auto;
-}
+
 
 .souscontainer {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 0 1rem; // Ajoutez cette ligne
+    padding: 1rem 5rem;
 }
 
 .text-container {
     width: 50%;
     margin-right: 80px;
+    margin-left: 10px;
     
 }
 
-.image-container {
-    
-    
-}
 
 .image2 {
-    
-        margin-left: 80px;
-        margin-top: 48px;
-        max-width: 100%; 
-        object-fit: cover;
-        height: 440px;
-        box-shadow: 0 0 10px grey;
-    
-}
+    display: block;
+    margin: auto;
+    margin-top: 46px;
+    object-fit: cover;
+    height: 440px;
+    box-shadow: 0 0 10px grey;
+   }
 
 .point-list {
     display: flex;

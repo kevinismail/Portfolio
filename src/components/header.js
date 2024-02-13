@@ -6,32 +6,31 @@ import cv from "../cvkevin.pdf";
 import { FaBars, FaTimes } from 'react-icons/fa';
 
 function Header() {
-  function toggleTheme() {
-    // Obtenez l'élément body
-    const body = document.querySelector('body');
-   
-    // Basculez entre les thèmes
-    if (body.classList.contains('light')) {
-       body.classList.remove('light');
-       body.classList.add('dark');
-    } else {
-       body.classList.remove('dark');
-       body.classList.add('light');
-    }
-   }
- const [isOpen, setIsOpen] = useState(false);
- 
+
+   const [isOpen, setIsOpen] = useState(false);
+
  const handleToggle = () => {
-     setIsOpen(!isOpen);
+   setIsOpen(!isOpen);
  };
- 
+
  useEffect(() => {
- if (window.innerWidth > 768) {
-     setIsOpen(false);
- }
+
+   const handleResize = () => {
+     if (window.innerWidth >  768) {
+       setIsOpen(false);
+     }
+   };
+
+
+   window.addEventListener('resize', handleResize);
+
+  
+   return () => {
+     window.removeEventListener('resize', handleResize);
+   };
  }, []);
  return (
- <header className="header sectionOne">
+ <header>
       <div className="container">
         <div className="header-content">
           <img src={logo} alt="Logo" className="logo"/>
@@ -57,7 +56,7 @@ function Header() {
           <Button className="cv-button" color="secondary"component="a" href={cv} download="mon-cv.pdf">
             Mon CV
           </Button>
-          <button onClick={toggleTheme}>Toggle Theme</button>
+        
 
         </div>
       </div>
