@@ -55,12 +55,10 @@
    .hamburger {
     display: none;
     cursor: pointer;
-   }
-   .hamburger.close {
     position: absolute;
-    top: 10px;
     right: 10px;
    }
+ 
 
  @media screen and (max-width: 768px) {
   .container {
@@ -70,6 +68,8 @@
  
   .hamburger {
     display: block;
+    border:none;
+    background-color: unset;
  }
 
  .link-group {
