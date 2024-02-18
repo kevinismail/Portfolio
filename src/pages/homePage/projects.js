@@ -22,7 +22,7 @@ function ProjectComponent() {
         <p>Il s'agit d'un site internet pour une photographe, une des missions demandée était en autre un travail sur l'accessibilité, l'optimisation du 
           site internet et sur le SEO. </p>
           <div className='buttonContainer'>
-          <Button><p>react</p></Button>
+          <Button><p>React</p></Button>
           <Button><p>Lightouse</p></Button>
           <Button><p>Figma</p></Button>
           <Button><p>Github</p></Button>
@@ -46,7 +46,7 @@ function ProjectComponent() {
           <Button><p>Github</p></Button>
           </div>
           <div className="linkContainer">
-        <a href="https://kevinismail.github.io/fork-OC-projet-09/" target="_blank" rel="noopener noreferrer">
+        <a href="https://kevinismail.github.io/OMF/" target="_blank" rel="noopener noreferrer">
     Code du deuxieme projet<Linkone/></a>
           </div>
       </div>    
@@ -58,13 +58,13 @@ function ProjectComponent() {
       <div className="textContainer">
         <p>Dans ce projet, il s'agit de la création d'une app react et de la mise en place de tests pour une société d'événémentiel </p>
           <div className='buttonContainer'>
+          <Button><p>Javascript</p></Button>
+          <Button><p>Tests</p></Button>
           <Button><p>React</p></Button>
-          <Button><p>Lightouse</p></Button>
-          <Button><p>Figma</p></Button>
           <Button><p>Github</p></Button>
           </div>
           <div className="linkContainer">
-        <a href="https://kevinismail.github.io/fork-OC-projet-09/" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/kevinismail/Debuggez-une-application-React.JS/tree/production/src" target="_blank" rel="noopener noreferrer">
     Code du troisième projet<Linkone/></a>
           </div>
       </div>    
