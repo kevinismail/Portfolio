@@ -4,6 +4,7 @@ import FirstProject from'../photo/nina.webp'
 import SecondProject from'../photo/ohmy.webp'
 import {ReactComponent as Linkone} from '../homePage/icones/link.svg'
 import ThirdProject from'../photo/77events.webp'
+import FourthProject from '../photo/exercise.webp'
 
 
 function ProjectComponent() {
@@ -66,6 +67,24 @@ function ProjectComponent() {
           <div className="linkContainer">
         <a href="https://github.com/kevinismail/Debuggez-une-application-React.JS/tree/production/src" target="_blank" rel="noopener noreferrer">
     Code du troisième projet<Linkone/></a>
+          </div>
+      </div>    
+    </div>
+       <div className="projectContainer">
+      <div className="imageContainer">
+        <img src={FourthProject} alt='Exercise' className='firstimage'/>
+      </div>
+      <div className="textContainer">
+        <p>Réalisation d'un tracker d'exercise en utilisant une base de donnée mongo </p>
+          <div className='buttonContainer'>
+          <Button><p>Javascript</p></Button>
+          <Button><p>NPM</p></Button>
+          <Button><p>API</p></Button>
+          <Button><p>MONGODB</p></Button>
+          </div>
+          <div className="linkContainer">
+        <a href="https://3000-freecodecam-boilerplate-79jbixel58f.ws-eu108.gitpod.io" target="_blank" rel="noopener noreferrer">
+    Lien vers projet du traker d'exercise<Linkone/></a>
           </div>
       </div>    
     </div>
