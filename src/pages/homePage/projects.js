@@ -77,10 +77,10 @@ function ProjectComponent() {
       <div className="textContainer">
         <p>Réalisation d'un tracker d'exercise en utilisant une base de donnée mongo </p>
           <div className='buttonContainer'>
-          <Button><p>Javascript</p></Button>
+          <Button><p>JS</p></Button>
           <Button><p>NPM</p></Button>
           <Button><p>API</p></Button>
-          <Button><p>MONGODB</p></Button>
+          <Button><p>MongoDB</p></Button>
           </div>
           <div className="linkContainer">
         <a href="https://3000-freecodecam-boilerplate-79jbixel58f.ws-eu108.gitpod.io" target="_blank" rel="noopener noreferrer">
